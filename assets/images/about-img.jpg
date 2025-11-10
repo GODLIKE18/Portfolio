@@ -1,0 +1,48 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2" fill="rgba(255,255,255,0.1)" />
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="400" fill="url(#aboutGradient)" />
+  <rect width="500" height="400" fill="url(#dots)" />
+  
+  <!-- Geometric Shapes -->
+  <polygon points="100,50 150,100 100,150 50,100" fill="rgba(255,255,255,0.1)" />
+  <circle cx="400" cy="80" r="40" fill="rgba(255,255,255,0.08)" />
+  <rect x="350" y="250" width="80" height="80" fill="rgba(255,255,255,0.06)" transform="rotate(45 390 290)" />
+  
+  <!-- Code Elements -->
+  <text x="50" y="200" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.6)">
+    const developer = {
+  </text>
+  <text x="70" y="220" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.6)">
+    name: "Praveen",
+  </text>
+  <text x="70" y="240" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.6)">
+    passion: "creating",
+  </text>
+  <text x="70" y="260" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.6)">
+    skills: ["innovation"]
+  </text>
+  <text x="50" y="280" font-family="monospace" font-size="14" fill="rgba(255,255,255,0.6)">
+    }
+  </text>
+  
+  <!-- Binary Background -->
+  <text x="300" y="150" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.1)">
+    01001000 01100101 01101100
+  </text>
+  <text x="300" y="170" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.1)">
+    01101100 01101111 00100000
+  </text>
+  <text x="300" y="190" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.1)">
+    01010111 01101111 01110010
+  </text>
+</svg>

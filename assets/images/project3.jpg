@@ -1,0 +1,64 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="projectGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff8c00;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#projectGradient3)" />
+  
+  <!-- Phone Frame -->
+  <rect x="200" y="50" width="200" height="320" rx="25" fill="#2c3e50" />
+  <rect x="215" y="70" width="170" height="280" rx="15" fill="#34495e" />
+  
+  <!-- Weather App Screen -->
+  <rect x="225" y="80" width="150" height="260" rx="10" fill="linear-gradient(135deg, #74b9ff 0%, #0984e3 100%)" />
+  
+  <!-- Sun -->
+  <circle cx="300" cy="130" r="25" fill="url(#sunGradient)" />
+  
+  <!-- Rays -->
+  <line x1="300" y1="90" x2="300" y2="100" stroke="#ffd700" stroke-width="3" stroke-linecap="round" />
+  <line x1="300" y1="160" x2="300" y2="170" stroke="#ffd700" stroke-width="3" stroke-linecap="round" />
+  <line x1="270" y1="130" x2="280" y2="130" stroke="#ffd700" stroke-width="3" stroke-linecap="round" />
+  <line x1="320" y1="130" x2="330" y2="130" stroke="#ffd700" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Clouds -->
+  <ellipse cx="250" cy="110" rx="15" ry="8" fill="rgba(255,255,255,0.7)" />
+  <ellipse cx="345" cy="120" rx="12" ry="6" fill="rgba(255,255,255,0.7)" />
+  
+  <!-- Temperature -->
+  <text x="300" y="200" font-family="Arial, sans-serif" font-size="36" font-weight="bold" 
+        text-anchor="middle" fill="white">24°</text>
+  <text x="300" y="220" font-family="Arial, sans-serif" font-size="14" 
+        text-anchor="middle" fill="rgba(255,255,255,0.8)">Sunny</text>
+  
+  <!-- Weather Details -->
+  <rect x="235" y="240" width="130" height="80" rx="8" fill="rgba(255,255,255,0.1)" />
+  
+  <text x="250" y="255" font-size="10" fill="white">Wind</text>
+  <text x="250" y="268" font-size="12" font-weight="bold" fill="white">15 km/h</text>
+  
+  <text x="300" y="255" font-size="10" fill="white">Humidity</text>
+  <text x="300" y="268" font-size="12" font-weight="bold" fill="white">65%</text>
+  
+  <text x="250" y="290" font-size="10" fill="white">Pressure</text>
+  <text x="250" y="303" font-size="12" font-weight="bold" fill="white">1013 hPa</text>
+  
+  <text x="300" y="290" font-size="10" fill="white">UV Index</text>
+  <text x="300" y="303" font-size="12" font-weight="bold" fill="white">6</text>
+  
+  <!-- Location Pin -->
+  <path d="M285 320 L300 335 L315 320 Q315 310 300 310 Q285 310 285 320" fill="white" />
+  <circle cx="300" cy="315" r="3" fill="#f093fb" />
+  
+  <!-- Title -->
+  <text x="300" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="white">Weather Forecast App</text>
+</svg>

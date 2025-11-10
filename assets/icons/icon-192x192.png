@@ -1,0 +1,13 @@
+<svg width="192" height="192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGradient192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="35" fill="url(#iconGradient192)" />
+  <text x="96" y="125" font-family="Arial, sans-serif" font-size="90" font-weight="bold" 
+        text-anchor="middle" fill="white">P</text>
+  <circle cx="150" cy="50" r="8" fill="rgba(255,255,255,0.3)" />
+  <circle cx="45" cy="150" r="6" fill="rgba(255,255,255,0.2)" />
+</svg>

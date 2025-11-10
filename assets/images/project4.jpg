@@ -1,0 +1,78 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="projectGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#projectGradient4)" />
+  
+  <!-- Design Canvas -->
+  <rect x="50" y="80" width="500" height="280" rx="15" fill="rgba(255,255,255,0.95)" />
+  
+  <!-- Design Tools Toolbar -->
+  <rect x="50" y="80" width="500" height="40" rx="15" fill="rgba(0,0,0,0.05)" />
+  
+  <!-- Tool Icons -->
+  <circle cx="80" cy="100" r="8" fill="#667eea" />
+  <rect x="105" y="92" width="16" height="16" fill="#f093fb" />
+  <polygon points="140,92 148,100 140,108 132,100" fill="#764ba2" />
+  
+  <!-- Design Elements -->
+  <!-- Color Palette -->
+  <rect x="80" y="140" width="100" height="80" rx="8" fill="rgba(102,126,234,0.1)" stroke="#667eea" stroke-width="2" />
+  <text x="130" y="135" font-size="12" text-anchor="middle" fill="#667eea">Color Palette</text>
+  
+  <circle cx="100" cy="160" r="12" fill="#667eea" />
+  <circle cx="130" cy="160" r="12" fill="#764ba2" />
+  <circle cx="160" cy="160" r="12" fill="#f093fb" />
+  
+  <rect x="90" y="180" width="60" height="8" rx="4" fill="#667eea" />
+  <rect x="90" y="195" width="45" height="8" rx="4" fill="#764ba2" />
+  <rect x="90" y="210" width="55" height="8" rx="4" fill="#f093fb" />
+  
+  <!-- Typography Section -->
+  <rect x="200" y="140" width="120" height="80" rx="8" fill="rgba(240,147,251,0.1)" stroke="#f093fb" stroke-width="2" />
+  <text x="260" y="135" font-size="12" text-anchor="middle" fill="#f093fb">Typography</text>
+  
+  <text x="210" y="160" font-size="16" font-weight="bold" fill="#333">Heading 1</text>
+  <text x="210" y="180" font-size="14" font-weight="600" fill="#333">Heading 2</text>
+  <text x="210" y="195" font-size="12" fill="#666">Body Text</text>
+  <text x="210" y="210" font-size="10" fill="#999">Caption</text>
+  
+  <!-- Component Library -->
+  <rect x="340" y="140" width="120" height="80" rx="8" fill="rgba(118,75,162,0.1)" stroke="#764ba2" stroke-width="2" />
+  <text x="400" y="135" font-size="12" text-anchor="middle" fill="#764ba2">Components</text>
+  
+  <!-- Button Component -->
+  <rect x="350" y="155" width="50" height="20" rx="10" fill="#667eea" />
+  <text x="375" y="168" font-size="8" text-anchor="middle" fill="white">Button</text>
+  
+  <!-- Card Component -->
+  <rect x="350" y="185" width="100" height="30" rx="6" fill="rgba(102,126,234,0.1)" stroke="#667eea" stroke-width="1" />
+  <text x="355" y="195" font-size="8" fill="#667eea">Card Component</text>
+  <rect x="355" y="200" width="60" height="4" rx="2" fill="#e0e0e0" />
+  <rect x="355" y="207" width="40" height="4" rx="2" fill="#e0e0e0" />
+  
+  <!-- Grid System -->
+  <rect x="80" y="240" width="380" height="100" rx="8" fill="rgba(0,0,0,0.02)" stroke="#ddd" stroke-width="1" />
+  <text x="270" y="235" font-size="12" text-anchor="middle" fill="#666">Grid System</text>
+  
+  <!-- Grid Columns -->
+  <rect x="90" y="250" width="85" height="30" fill="rgba(102,126,234,0.2)" />
+  <rect x="185" y="250" width="85" height="30" fill="rgba(240,147,251,0.2)" />
+  <rect x="280" y="250" width="85" height="30" fill="rgba(118,75,162,0.2)" />
+  <rect x="375" y="250" width="75" height="30" fill="rgba(102,126,234,0.2)" />
+  
+  <rect x="90" y="290" width="175" height="40" fill="rgba(240,147,251,0.2)" />
+  <rect x="275" y="290" width="175" height="40" fill="rgba(118,75,162,0.2)" />
+  
+  <!-- Title -->
+  <text x="300" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="white">Portfolio Design System</text>
+  
+  <!-- Design Tools -->
+  <text x="480" y="110" font-size="10" fill="white">Figma • Sketch • Adobe XD</text>
+</svg>

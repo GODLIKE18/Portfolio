@@ -1,0 +1,55 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="projectGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#projectGradient2)" />
+  
+  <!-- Task Management Interface -->
+  <rect x="50" y="80" width="500" height="300" rx="10" fill="rgba(255,255,255,0.95)" />
+  
+  <!-- Header -->
+  <rect x="50" y="80" width="500" height="50" rx="10" fill="rgba(118,75,162,0.1)" />
+  <text x="300" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" 
+        text-anchor="middle" fill="#764ba2">Task Manager Dashboard</text>
+  
+  <!-- Task Cards -->
+  <rect x="80" y="150" width="140" height="100" rx="8" fill="rgba(102,126,234,0.1)" stroke="#667eea" stroke-width="2" />
+  <rect x="240" y="150" width="140" height="100" rx="8" fill="rgba(240,147,251,0.1)" stroke="#f093fb" stroke-width="2" />
+  <rect x="400" y="150" width="120" height="100" rx="8" fill="rgba(118,75,162,0.1)" stroke="#764ba2" stroke-width="2" />
+  
+  <!-- Task Status -->
+  <circle cx="90" cy="160" r="4" fill="#667eea" />
+  <text x="100" y="165" font-size="10" fill="#667eea">To Do</text>
+  
+  <circle cx="250" cy="160" r="4" fill="#f093fb" />
+  <text x="260" y="165" font-size="10" fill="#f093fb">In Progress</text>
+  
+  <circle cx="410" cy="160" r="4" fill="#27ca3f" />
+  <text x="420" y="165" font-size="10" fill="#27ca3f">Done</text>
+  
+  <!-- Task Items -->
+  <rect x="85" y="175" width="130" height="8" rx="4" fill="#e0e0e0" />
+  <rect x="85" y="190" width="100" height="8" rx="4" fill="#e0e0e0" />
+  <rect x="85" y="205" width="120" height="8" rx="4" fill="#e0e0e0" />
+  
+  <rect x="245" y="175" width="130" height="8" rx="4" fill="#e0e0e0" />
+  <rect x="245" y="190" width="80" height="8" rx="4" fill="#f093fb" />
+  <rect x="245" y="205" width="110" height="8" rx="4" fill="#e0e0e0" />
+  
+  <rect x="405" y="175" width="110" height="8" rx="4" fill="#27ca3f" />
+  <rect x="405" y="190" width="90" height="8" rx="4" fill="#27ca3f" />
+  
+  <!-- Progress Bar -->
+  <rect x="80" y="280" width="440" height="20" rx="10" fill="rgba(0,0,0,0.1)" />
+  <rect x="80" y="280" width="264" height="20" rx="10" fill="#667eea" />
+  <text x="300" y="295" font-size="12" text-anchor="middle" fill="white">60% Complete</text>
+  
+  <!-- Title -->
+  <text x="300" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="white">Task Management App</text>
+</svg>

@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen - Full Stack Developer Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Praveen's Portfolio - Full Stack Developer specializing in modern web technologies">
+    <meta name="keywords" content="Full Stack Developer, Web Development, JavaScript, React, Node.js, Portfolio">
+    <meta name="author" content="Praveen">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Praveen - Full Stack Developer Portfolio">
+    <meta property="og:description" content="Explore my projects, skills, and experience in full stack development">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <span class="logo-text">Praveen</span>
+                    <span class="logo-dot">.</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link" data-section="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#skills" class="nav-link" data-section="skills">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#projects" class="nav-link" data-section="projects">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#experience" class="nav-link" data-section="experience">
+                    <i class="fas fa-history"></i>
+                    <span>Experience</span>
+                </a>
+                <a href="#contact" class="nav-link" data-section="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-particles"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Praveen</span>
+                        <span class="typing-wrapper">
+                            <span class="typed-text"></span>
+                            <span class="cursor-blink">|</span>
+                        </span>
+                    </h1>
+                    <p class="hero-description">
+                        A passionate Full Stack Developer crafting digital experiences with modern technologies. 
+                        I transform ideas into powerful, scalable web applications that make a difference.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-paper-plane"></i>
+                            Get In Touch
+                        </a>
+                    </div>
+
+                    <div class="hero-social">
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:your.email@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                <div class="image-container">
+                    <div class="image-bg"></div>
+                    <img src="./assets/images/photo11.jpg" alt="Praveen Profile Picture" class="profile-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate developer with a love for creating innovative solutions</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-description">
+                        <p>
+                            I'm a dedicated Full Stack Developer with a passion for creating exceptional digital experiences. 
+                            With expertise in modern web technologies, I specialize in building responsive, user-friendly 
+                            applications that solve real-world problems.
+                        </p>
+                        <p>
+                            My journey in development started with curiosity and has evolved into a career focused on 
+                            continuous learning and innovation. I believe in writing clean, maintainable code and 
+                            staying up-to-date with the latest industry trends and best practices.
+                        </p>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="50">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+
+                    <div class="about-buttons">
+                        <a href="./assets/resume.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-phone"></i>
+                            Let's Talk
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="image-wrapper">
+                        <img src="./assets/images/about-img.jpg" alt="About Praveen">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with to bring ideas to life</p>
+            </div>
+
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="category-title">
+                            <i class="fas fa-laptop-code"></i>
+                            Frontend Development
+                        </h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="95"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="90"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="88"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="85"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="category-title">
+                            <i class="fas fa-server"></i>
+                            Backend Development
+                        </h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="80"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="75"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="78"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="82"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="category-title">
+                            <i class="fas fa-tools"></i>
+                            Tools & Technologies
+                        </h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Git</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="85"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-docker"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Docker</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="70"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">AWS</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="65"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">CI/CD</span>
+                                    <div class="skill-progress">
+                                        <div class="progress-bar" data-percentage="72"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work that I'm proud of</p>
+            </div>
+
+            <div class="project-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="./assets/images/project1.jpg" alt="E-Commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="1">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A full-featured e-commerce platform with advanced filtering, payment integration, 
+                            and admin dashboard built with React and Node.js.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="./assets/images/project2.jpg" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="2">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            A collaborative task management application with real-time updates, 
+                            team collaboration features, and advanced analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="./assets/images/project3.jpg" alt="Weather App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="3">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Forecast App</h3>
+                        <p class="project-description">
+                            A beautiful weather application with location-based forecasts, 
+                            interactive maps, and customizable notifications.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="./assets/images/project4.jpg" alt="Portfolio Design">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-project="4">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Design System</h3>
+                        <p class="project-description">
+                            A comprehensive design system for creative professionals with 
+                            customizable components and modern aesthetics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Adobe XD</span>
+                            <span class="tech-tag">Sketch</span>
+                            <span class="tech-tag">Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My professional journey and academic background</p>
+            </div>
+
+            <div class="experience-content">
+                <div class="experience-timeline">
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Senior Full Stack Developer</h3>
+                            <h4 class="timeline-company">Tech Solutions Inc.</h4>
+                            <span class="timeline-date">2022 - Present</span>
+                            <p class="timeline-description">
+                                Leading development of enterprise-level web applications using modern technologies. 
+                                Mentoring junior developers and architecting scalable solutions for high-traffic applications.
+                            </p>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Team Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                        <div class="timeline-marker">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Full Stack Developer</h3>
+                            <h4 class="timeline-company">Digital Innovations Ltd.</h4>
+                            <span class="timeline-date">2020 - 2022</span>
+                            <p class="timeline-description">
+                                Developed and maintained multiple client projects using various technologies. 
+                                Collaborated with design teams to create responsive and user-friendly interfaces.
+                            </p>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Django</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                        <div class="timeline-marker">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Frontend Developer</h3>
+                            <h4 class="timeline-company">StartUp Hub</h4>
+                            <span class="timeline-date">2019 - 2020</span>
+                            <p class="timeline-description">
+                                Specialized in creating interactive user interfaces and optimizing web performance. 
+                                Worked closely with UX designers to implement pixel-perfect designs.
+                            </p>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">SASS</span>
+                                <span class="skill-tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                        <div class="timeline-marker">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Bachelor's in Computer Science</h3>
+                            <h4 class="timeline-company">University of Technology</h4>
+                            <span class="timeline-date">2015 - 2019</span>
+                            <p class="timeline-description">
+                                Graduated with honors, focusing on software engineering and web development. 
+                                Completed multiple projects and internships in full stack development.
+                            </p>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">Data Structures</span>
+                                <span class="skill-tag">Algorithms</span>
+                                <span class="skill-tag">Software Engineering</span>
+                                <span class="skill-tag">Database Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next project or collaboration opportunity</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>New York, NY, USA</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>praveen@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://github.com" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left" data-aos-duration="1000">
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required class="form-input">
+                            <label for="name" class="form-label">Your Name</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required class="form-input">
+                            <label for="email" class="form-label">Your Email</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required class="form-input">
+                            <label for="subject" class="form-label">Subject</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" required class="form-input form-textarea"></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary form-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Praveen. All rights reserved.</p>
+                    <p>Crafted with <i class="fas fa-heart"></i> and lots of coffee</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <!-- Project details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/animations.js"></script>
+    <script src="./js/particles.js"></script>
+</body>
+</html>
